@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Handwritten Digit Recognition</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Handwritten Digit Recognition</h1>
+
+        <p class="subtitle">
+            Draw any digit from 0 to 9 and let our ANN model recognize it.
+        </p>
+
+        <div class="drawing-area">
+
+            <canvas id="canvas" width="280" height="280"></canvas>
+
+        </div>
+
+        <div class="buttons">
+
+            <button id="predictBtn">
+                Predict Digit
+            </button>
+
+            <button id="clearBtn" class="clear">
+                Clear
+            </button>
+
+        </div>
+
+        <div class="result">
+
+            <h2>Prediction Result</h2>
+
+            <div id="prediction">?</div>
+
+            <p id="confidence">
+                Draw something to get started.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
